@@ -18,4 +18,8 @@ public class CrowdService {
     public List<Crowd> getCrowd() {
         return crowdRepository.getCrowd()
 ;    }
+
+    public Crowd getCrowdOne(int fundingId) {
+        return crowdRepository.getCrowdOne(fundingId)
+                ;    }
 }
